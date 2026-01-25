@@ -780,15 +780,15 @@ export default function DIGIntelligencePlatform() {
         <div className="max-w-5xl mx-auto px-4 md:px-8 py-4 md:py-6">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div className="cursor-pointer" onClick={() => setCurrentView('dashboard')}>
-              <div className="text-xs uppercase tracking-widest text-stone-400 mb-1">Digin Appraisals</div>
+              <div className="text-xs uppercase tracking-widest text-stone-400 mb-1">Dig Appraisal</div>
               <h1 className="text-xl md:text-2xl font-light text-stone-900 tracking-wide">Market Intel.</h1>
             </div>
             <nav className="flex gap-4 md:gap-6 overflow-x-auto">
               {[
-                { id: 'dashboard', label: 'Overviewz' },
-                { id: 'guitars', label: 'Guitarsz' },
-                { id: 'beatles', label: 'Beatlezzs' },
-                { id: 'bowie', label: 'Bowiez' },
+                { id: 'dashboard', label: 'Overview' },
+                { id: 'guitars', label: 'Guitars' },
+                { id: 'beatles', label: 'Beatles' },
+                { id: 'bowie', label: 'Bowie' },
               ].map(item => (
                 <button
                   key={item.id}
