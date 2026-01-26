@@ -781,7 +781,7 @@ export default function DIGIntelligencePlatform() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div className="cursor-pointer" onClick={() => setCurrentView('dashboard')}>
               <div className="text-xs uppercase tracking-widest text-stone-400 mb-1">Dig Appraisal</div>
-              <h1 className="text-xl md:text-2xl font-light text-stone-900 tracking-wide">Market BIntel.ya.</h1>
+              <h1 className="text-xl md:text-2xl font-light text-stone-900 tracking-wide">Market Boy Intel</h1>
             </div>
             <nav className="flex gap-4 md:gap-6 overflow-x-auto">
               {[
