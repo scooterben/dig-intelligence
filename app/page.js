@@ -3,6 +3,16 @@
 import React, { useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ComposedChart, Area } from 'recharts';
 
+export const dynamic = "force-dynamic";
+
+export default function Home() {
+  return (
+    <main>
+      <h1>{new Date().toISOString()}</h1>
+    </main>
+  );
+}
+
 // ============================================
 // SHARED DATA
 // ============================================
